@@ -1,0 +1,222 @@
+ .Products_body{
+	margin:  0 auto;
+	max-width:845px;
+	//width: 320px;
+	position: relative;
+	box-sizing: border-box;
+	padding: 0;
+	margin:  0 auto;
+	//width: 100%;
+	width: 845px;
+ }
+ .Products_header{
+	line-height: 1em;
+	font-size: 1.15em;
+	font-style: oblique;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin: 20px 0px;
+	color: #000;
+	text-align: left;
+	margin-bottom: 60px;
+	padding-left: 5px;
+	font-family: "微軟正黑體",'Roboto', sans-serif, Helvetica, "Heiti TC", "Microsoft Sans Serif", "Microsoft Sans Serif", "Helvetica", "Geneva", "sans-serif"!important;
+	&::before{
+	@extend %icomoon;
+	font-size: 52px;
+	background-color: #fff;
+	border-radius: 52px;
+	text-align: center;
+	vertical-align: middle;
+	margin-right: 10px;
+	font-family: 'icomoon' !important;
+	}
+	span{
+	display: block;
+	padding-left: 63px;
+	line-height: 1em;
+	margin-top: -10px;
+	font-size: .9em;
+	}
+}
+.Products_item{
+		//width: 320px;
+		height: 470px;
+		position: relative;
+		padding-top: 40px;
+		//padding-left: 8px;
+		//padding-right: 8px;
+		box-sizing: border-box;
+		clear: both;
+		margin-bottom:110px;
+		width:380px;
+		padding-left: 0px;
+		padding-right: 0px;
+	.Products_title{//標題
+		position: absolute;
+		top: 0;
+		left: 5px;
+		background-image:url(../images/products/products_title_bg.gif);
+		background-position:left top;
+		background-repeat: no-repeat;
+		height: 40px;
+
+	}
+	.Products_icon{
+		position: absolute;
+		top: 0;
+		right:5px;
+		text-align: right;
+		li{	display: block;
+			float: left;
+			//font-size: 2em;
+			padding-left: 8px;	
+			font-size: 2.7em;	
+		}
+	}
+	.Products_img{//產品圖
+		margin-top: 0px;
+		li{	display: block;
+			img{width:100%;max-width: 380px;}
+		}
+	}
+	.Products_info{width:100%;margin-top:20px;
+		li{ width:100%; line-height: 30px;min-height: 30px;
+			position: relative;
+			font-size: .8em;
+			word-break: break-all;
+			//font-size: 1em;
+			
+			span{display: block;margin-left: 50%;height: 100%;width: 50%;
+				position: absolute;top: 0;overflow: visible;
+				word-break: break-all;border-bottom: #000 solid 1px;
+			}
+		}
+		li:first-child{
+			span{
+				border-top: #000 solid 2px;
+			}
+		}
+	}
+}
+
+
+	 .Products_body{
+		 padding: 0 5px
+	 }
+	.Products_item:nth-child(3){
+		position: absolute;
+		right: 5px;
+		top: 353px;
+		//118 + 470 /2
+	}
+	.Products_item:nth-child(5){
+		position: absolute;
+		right: 5px;
+		top: 933px;
+		//698 + 470 /2
+	}
+	.Products_item:nth-child(7){
+		position: absolute;
+		right: 5px;
+		top: 1513px;
+	}
+	.Products_item:nth-child(9){
+		position: absolute;
+		right: 5px;
+		top: 2093px;
+	}
+	.Products_item:nth-child(11){
+		position: absolute;
+		right: 5px;
+		top: 2673px;
+	}
+	.Products_item:nth-child(13){
+		position: absolute;
+		right: 5px;
+		top: 3253px;
+	}
+	.Products_item:nth-child(15){
+		position: absolute;
+		right: 5px;
+		top: 3833px;
+	}
+
+
+	 .Products_body{
+		 padding: 0 15px
+	 }
+	.Products_item:nth-child(3),
+	.Products_item:nth-child(5),
+	.Products_item:nth-child(7),
+	.Products_item:nth-child(9),
+	.Products_item:nth-child(11),
+	.Products_item:nth-child(13),
+	.Products_item:nth-child(15){
+		right: -800px;
+	}
+
+
+
+
+.Accessories_item{
+	width: 100%;
+	box-sizing: border-box;
+	.Accessories_item_G,
+	.Accessories_item_W{
+		li{	float: left;
+			position: relative;
+			img{
+			}
+			span{
+				position: absolute;
+				z-index: 9;
+				bottom: 15px;
+			}
+		}
+	}
+	.Accessories_item_G{
+		max-width: 600px;
+		min-height: 150px;
+		margin: 0 auto;
+		box-sizing: border-box;
+		display: block;
+		height: auto;
+		margin-bottom: 30px;
+		//width: 300px;
+		
+		width: 600px;
+		
+		li{ margin: 0 5px;	
+			img{
+				max-width: 140px;
+			}
+			span{
+				bottom: 15px;
+				right: 55px;
+			}
+		}
+	}
+	.Accessories_item_W{
+		max-width: 780px;
+		min-height: 150px;
+		padding-top: 30px;
+		border-top: #000 solid thin;
+		clear: both;
+		display: block;
+		
+		width: 780px;
+		margin: 0 auto;
+		
+		li{	margin-bottom: 40px;
+			img{
+				max-width: 260px;
+			}
+			span{
+				bottom: 0px;
+				right: 5px;
+			}
+		}
+		
+	}
+}
